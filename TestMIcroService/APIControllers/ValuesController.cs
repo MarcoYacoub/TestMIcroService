@@ -32,7 +32,7 @@ namespace TestMIcroService.APIControllers
 
             // Act
             MarkdownCodeDocGenerator.Run(sourceAssembly, codeDocDirectory);
-            return 0;
+            return 1;
             // Arrange
             
         }
