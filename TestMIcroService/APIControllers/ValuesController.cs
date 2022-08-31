@@ -1,7 +1,4 @@
-﻿using Atc.CodeDocumentation.Markdown;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics.CodeAnalysis;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace TestMIcroService.APIControllers
 {
@@ -27,11 +24,11 @@ namespace TestMIcroService.APIControllers
         //[Atc.LocalizedDescription("Index Method For Values Controller", typeof(ValuesController))]
         public int Index(int x)
         {
-            var sourceAssembly = typeof(ValuesController).Assembly;
-            var codeDocDirectory = new DirectoryInfo(@"C:\Users\Marco\source\repos\TestMIcroService\TestMIcroService");
+            //var sourceAssembly = typeof(ValuesController).Assembly;
+            //var codeDocDirectory = new DirectoryInfo(@"C:\Users\Marco\source\repos\TestMIcroService\TestMIcroService");
 
             // Act
-            MarkdownCodeDocGenerator.Run(sourceAssembly, codeDocDirectory);
+            //MarkdownCodeDocGenerator.Run(sourceAssembly, codeDocDirectory);
             return 1;
             // Arrange
             

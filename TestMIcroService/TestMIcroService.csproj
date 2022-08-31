@@ -7,8 +7,4 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Atc.CodeDocumentation" Version="2.0.171" />
-  </ItemGroup>
-
 </Project>
